@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CUIT SecondClass QR Code Generator</title>
+    <style>
+        body {
+            width: 220px;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        div {
+            display: none;
+            margin: 10px auto;
+        }
+        span {
+            display: none;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            padding: 3px 0;
+            font-size: 18px;
+        }
+        button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CUIT SecondClass</h1>
+    <h1>QR Code Generator</h1>
+    <button id="generate">Generate QR Codes</button>
+    <span id="label1"></span>
+    <div id="qrCode1"></div>
+    <span id="label2"></span>
+    <div id="qrCode2"></div>
+    <script src="qrcode.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
