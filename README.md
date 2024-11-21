@@ -1,10 +1,1 @@
-一句话简述项目用途或目标
-
-目录
-简介
-功能
-安装
-使用说明
-技术栈
-贡献指南
-许可证
+安装：手动用edge的开发者模式安装，参考{https://jingyan.baidu.com/article/ed15cb1b082b0c5ae36981b6.html}
